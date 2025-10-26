@@ -7,7 +7,7 @@ import App from "./App.jsx";
 import CheckPage from "./pages/CheckPage.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Routes>
       <Route index path="/" element={<App />} />
       <Route path="check" element={<CheckPage />} />
