@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@import "tailwindcss";
+
+@theme {
+  --font-anuphan: "Anuphan", sans-serif;
+
+  --color-background-primary: #ffecc0;
+  --color-background-secondary: #e7f1ff;
+  --color-background-thai-tea: #ff9a43;
+  --color-background-green-tea: #a2c26a;
+
+  --color-text-primary: #595959;
+  --color-text-secondary: #818181;
+  --color-text-white: #ffffff;
+  --color-text-warning: #f24b4b;
+
+  --shadow-card: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  @apply font-anuphan;
+}
