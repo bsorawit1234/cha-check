@@ -1,0 +1,347 @@
+[
+  {
+    "brand": "Inthanin",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "Thai Tea Latte",
+        "img_path": "/images/inthanin-thai-tea.jpg",
+        "tsp": 3.5,
+        "volume": 196,
+        "brix": 8.77,
+        "sugar": 17.18
+      },
+      {
+        "type": "green-tea",
+        "title": "Green Tea Latte",
+        "img_path": "/images/inthanin-green-tea.jpg",
+        "tsp": 6.5,
+        "volume": 248,
+        "brix": 13.33,
+        "sugar": 33.07
+      }
+    ]
+  },
+  {
+    "brand": "GAGA",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "Thai milk tea (M)",
+        "img_path": "/images/gaga-thai-tea.jpg",
+        "tsp": 15,
+        "volume": 277,
+        "brix": 27.57,
+        "sugar": 76.36
+      },
+      {
+        "type": "green-tea",
+        "title": "Organic Matcha",
+        "img_path": "/images/gaga-green-tea.jpg",
+        "tsp": 7,
+        "volume": 270,
+        "brix": 12.57,
+        "sugar": 33.93
+      }
+    ]
+  },
+  {
+    "brand": "KUDSAN 7-11",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "ชาไทยเย็น",
+        "img_path": "/images/kudson-thai-tea.jpg",
+        "tsp": 9,
+        "volume": 229,
+        "brix": 19.47,
+        "sugar": 44.58
+      },
+      {
+        "type": "green-tea",
+        "title": "ชาเขียวเย็น",
+        "img_path": "/images/kudson-green-tea.jpg",
+        "tsp": 11,
+        "volume": 234,
+        "brix": 23.7,
+        "sugar": 55.46
+      }
+    ]
+  },
+  {
+    "brand": "Punthai",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "ชาไทยเย็น",
+        "img_path": "/images/punthai-thai-tea.jpg",
+        "tsp": 10.5,
+        "volume": 204,
+        "brix": 26,
+        "sugar": 53.04
+      },
+      {
+        "type": "green-tea",
+        "title": "ชาเขียวเย็น",
+        "img_path": "/images/punthai-green-tea.jpg",
+        "tsp": 11,
+        "volume": 391,
+        "brix": 14.1,
+        "sugar": 55.13
+      }
+    ]
+  },
+  {
+    "brand": "Freshme",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "Chachak",
+        "img_path": "/images/freshme-thai-tea.jpg",
+        "tsp": 10,
+        "volume": 289,
+        "brix": 17.37,
+        "sugar": 50.19
+      },
+      {
+        "type": "green-tea",
+        "title": "Matcha Latte",
+        "img_path": "/images/freshme-green-tea.jpg",
+        "tsp": 7,
+        "volume": 224,
+        "brix": 15.47,
+        "sugar": 34.65
+      }
+    ]
+  },
+  {
+    "brand": "FUKU",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "ชาไทยสูตรเข้มข้น",
+        "img_path": "/images/fuku-thai-tea.jpg",
+        "tsp": 18.5,
+        "volume": 389,
+        "brix": 23.8,
+        "sugar": 92.58
+      },
+      {
+        "type": "green-tea",
+        "title": "มัทฉะนมสด (L)",
+        "img_path": "/images/fuku-green-tea.jpg",
+        "tsp": 13,
+        "volume": 351,
+        "brix": 18.83,
+        "sugar": 66.11
+      }
+    ]
+  },
+  {
+    "brand": "Yodcha",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "ชาไทยพ่อม ดั้งเดิม",
+        "img_path": "/images/yodcha-thai-tea.jpg",
+        "tsp": 11,
+        "volume": 200,
+        "brix": 27.1,
+        "sugar": 54.2
+      },
+      {
+        "type": "green-tea",
+        "title": "กรีนทีลาเต้เย็นๆ",
+        "img_path": "/images/yodcha-green-tea.jpg",
+        "tsp": 10.5,
+        "volume": 214,
+        "brix": 24.17,
+        "sugar": 51.72
+      }
+    ]
+  },
+  {
+    "brand": "Bearhouse",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "ชาไทยครามลาเต้",
+        "img_path": "/images/bearhouse-thai-tea.jpg",
+        "tsp": 13.5,
+        "volume": 293,
+        "brix": 23.2,
+        "sugar": 67.98
+      },
+      {
+        "type": "green-tea",
+        "title": "มัทฉะลาเต้พรีเมียม",
+        "img_path": "/images/bearhouse-green-tea.jpg",
+        "tsp": 13.5,
+        "volume": 309,
+        "brix": 21.67,
+        "sugar": 66.95
+      }
+    ]
+  },
+  {
+    "brand": "Cha Tra Mue",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "Thai Tea",
+        "img_path": "/images/ctm-thai-tea.jpg",
+        "tsp": 11,
+        "volume": 188,
+        "brix": 29.5,
+        "sugar": 55.46
+      },
+      {
+        "type": "green-tea",
+        "title": "Milk Green Tea",
+        "img_path": "/images/ctm-green-tea.jpg",
+        "tsp": 10,
+        "volume": 202,
+        "brix": 24,
+        "sugar": 48.48
+      }
+    ]
+  },
+  {
+    "brand": "Amazon",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "ชานม",
+        "img_path": "/images/amz-thai-tea.jpg",
+        "tsp": 11,
+        "volume": 230,
+        "brix": 23.5,
+        "sugar": 54.05
+      },
+      {
+        "type": "green-tea",
+        "title": "ชาเขียวนม",
+        "img_path": "/images/amz-green-tea.jpg",
+        "tsp": 7.5,
+        "volume": 184,
+        "brix": 20.77,
+        "sugar": 38.21
+      }
+    ]
+  },
+  {
+    "brand": "Kamu",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "The Ancient Thai Tea",
+        "img_path": "/images/kamu-thai-tea.jpg",
+        "tsp": 14.5,
+        "volume": 296,
+        "brix": 24.8,
+        "sugar": 73.41
+      },
+      {
+        "type": "green-tea",
+        "title": "Matcha Latte Premium",
+        "img_path": "/images/kamu-green-tea.jpg",
+        "tsp": 12.5,
+        "volume": 300,
+        "brix": 21.0,
+        "sugar": 63.0
+      }
+    ]
+  },
+  {
+    "brand": "mumuCha",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "ชาไทยนม",
+        "img_path": "/images/mumucha-thai-tea.jpg",
+        "tsp": 15.5,
+        "volume": 482,
+        "brix": 16.17,
+        "sugar": 77.92
+      },
+      {
+        "type": "green-tea",
+        "title": "ชาเขียวน้ำผึ้ง",
+        "img_path": "/images/mumucha-green-tea.jpg",
+        "tsp": 15.5,
+        "volume": 454,
+        "brix": 16.97,
+        "sugar": 77.03
+      }
+    ]
+  },
+  {
+    "brand": "MEE-KHWAM-SOOK",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "Royal Thai Milk Tea",
+        "img_path": "/images/mks-thai-tea.jpg",
+        "tsp": 11,
+        "volume": 246,
+        "brix": 21.9,
+        "sugar": 53.87
+      },
+      {
+        "type": "green-tea",
+        "title": "Matcha Green Tea",
+        "img_path": "/images/mks-green-tea.jpg",
+        "tsp": 11,
+        "volume": 241,
+        "brix": 23.2,
+        "sugar": 55.91
+      }
+    ]
+  },
+  {
+    "brand": "NOBI CHA",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "Thai milk tea",
+        "img_path": "/images/nobi-thai-tea.jpg",
+        "tsp": 17,
+        "volume": 309,
+        "brix": 27.43,
+        "sugar": 84.77
+      },
+      {
+        "type": "green-tea",
+        "title": "Green milk tea",
+        "img_path": "/images/nobi-green-tea.jpg",
+        "tsp": 18,
+        "volume": 298,
+        "brix": 30.07,
+        "sugar": 89.6
+      }
+    ]
+  },
+  {
+    "brand": "ONE TO TWO",
+    "menu": [
+      {
+        "type": "thai-tea",
+        "title": "Thai milk tea (M)",
+        "img_path": "/images/one-to-two-thai-tea.jpg",
+        "tsp": 7,
+        "volume": 203,
+        "brix": 17.43,
+        "sugar": 35.39
+      },
+      {
+        "type": "green-tea",
+        "title": "Matcha Latte",
+        "img_path": "/images/one-to-two-green-tea.jpg",
+        "tsp": 7,
+        "volume": 203,
+        "brix": 17.57,
+        "sugar": 35.66
+      }
+    ]
+  }
+]
