@@ -1,6 +1,10 @@
 import React from "react";
 
 const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
+  const base = import.meta.env.BASE_URL;
+  const resolve = (p) =>
+    p?.startsWith("http") ? p : `${base}${(p || "").replace(/^\/+/, "")}`; // strip leading "/" then prefix base
+
   const tspShow = (tsp) => {
     const totalTsp = Math.max(0, tsp);
     const wholeTsp = Math.floor(totalTsp);
@@ -11,7 +15,7 @@ const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
       .map((_, index) => (
         <img
           key={index}
-          src="images/teaspoon-full.png"
+          src={resolve("images/teaspoon-full.png")}
           alt="full teaspoon"
           className="w-7 h-7 md:w-8 md:h-8"
           draggable="false"
@@ -21,7 +25,7 @@ const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
     const halfTspImage = hasHalfTsp ? (
       <img
         key="half"
-        src="images/teaspoon-half.png"
+        src={resolve("images/teaspoon-half.png")}
         alt="half teaspoon"
         className="w-7 h-7 md:w-8 md:h-8"
         draggable="false"
@@ -36,7 +40,7 @@ const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
       return (
         <div className="flex items-center justify-center space-x-2">
           <img
-            src="images/teaspoon-full.png"
+            src={resolve("images/teaspoon-full.png")}
             alt="teaspoon"
             className="w-7 h-7 md:w-8 md:h-8"
             draggable="false"
@@ -76,7 +80,9 @@ const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
       <div className="my-5 px-6 w-full flex justify-center">
         <img
           className="max-h-[180px] md:max-h-[200px] object-contain"
-          src={imgPath?.startsWith("/") ? imgPath : `/images/${imgPath}`}
+          src={resolve(
+            imgPath?.startsWith("/") ? imgPath : `images/${imgPath}`
+          )}
           alt={menu}
           draggable="false"
         />

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import MenuCard from "../components/MenuCard";
 import SearchBar from "../components/SearchBar";
 
@@ -9,10 +9,12 @@ const CheckPage = () => {
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState(null);
 
+  const base = import.meta.env.BASE_URL;
+
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch("/data.json");
+        const res = await fetch(`${base}data.json`);
         if (!res.ok) throw new Error("Failed to load data.json");
         const json = await res.json();
         setData(json);
@@ -22,7 +24,7 @@ const CheckPage = () => {
         setLoading(false);
       }
     })();
-  }, []);
+  }, [base]);
 
   const options = useMemo(
     () => data.map((b) => ({ value: b.brand, label: b.brand })),
@@ -36,7 +38,6 @@ const CheckPage = () => {
 
   return (
     <div className="min-h-screen bg-background-secondary flex flex-col">
-      {/* HEADER */}
       <header className="flex justify-center pt-5">
         <Link to="/">
           <img
@@ -48,7 +49,6 @@ const CheckPage = () => {
         </Link>
       </header>
 
-      {/* MAIN (fills the rest) */}
       <main className="flex-grow flex flex-col items-center px-4">
         <div className="w-full max-w-2xl mt-4">
           <SearchBar

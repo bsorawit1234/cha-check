@@ -72,7 +72,7 @@ const SearchBar = ({
         `}
         onClick={() => setOpen((o) => !o)}
       >
-        <span className="font-semibold text-gray-900">
+        <span className="font-semibold text-text-primary">
           {selectedLabel || placeholder}
         </span>
         <span className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
@@ -137,7 +137,9 @@ const SearchBar = ({
                     cursor-pointer px-4 py-2
                     ${active ? "bg-gray-100" : ""}
                     ${
-                      selected ? "font-semibold text-gray-900" : "text-gray-700"
+                      selected
+                        ? "font-semibold text-text-primary"
+                        : "text-text-secondary"
                     }
                   `}
                   onMouseEnter={() => setActiveIndex(idx)}
