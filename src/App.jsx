@@ -26,7 +26,8 @@ function App() {
         </Link>
 
         <a
-          href="https://example.com/survey"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScXTPDrVulr0EqENs-uJYpXLRAAjr5mylTdv6Ftv6t99HY4WA/viewform"
+          target="_blank"
           className="font-bold text-lg md:text-xl text-text-primary underline underline-offset-4 hover:opacity-80 transition duration-300 hover:scale-105"
         >
           แบบฟอร์มประเมินความพึงพอใจ

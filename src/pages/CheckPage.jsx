@@ -50,7 +50,7 @@ const CheckPage = () => {
       </header>
 
       <main className="flex-grow flex flex-col items-center px-4">
-        <div className="w-full max-w-2xl mt-4">
+        <div className="w-full max-w-2xl mt-4 flex justify-center items-center">
           <SearchBar
             options={options}
             value={selectedBrand}
@@ -89,7 +89,8 @@ const CheckPage = () => {
         </Link>
         <div className="mt-2">
           <a
-            href="https://example.com/survey"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScXTPDrVulr0EqENs-uJYpXLRAAjr5mylTdv6Ftv6t99HY4WA/viewform"
+            target="_blank"
             className="font-bold text-lg md:text-xl text-text-primary underline underline-offset-4 hover:opacity-80 transition duration-300 hover:scale-105"
           >
             แบบฟอร์มประเมินความพึงพอใจ
