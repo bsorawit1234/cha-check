@@ -103,7 +103,8 @@ const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
                 water_full
               </span>
               <div className="font-semibold text-[15px]">
-                ปริมาณ: {volume} g
+                ปริมาณ
+                <br /> {volume} g
               </div>
             </div>
           </div>
@@ -113,7 +114,10 @@ const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
               <span className="material-symbols-outlined" aria-hidden>
                 gas_meter
               </span>
-              <div className="font-semibold text-[15px]">% BRIX: {brix}</div>
+              <div className="font-semibold text-[15px]">
+                % BRIX <br />
+                {brix}
+              </div>
             </div>
           </div>
 
@@ -122,7 +126,9 @@ const MenuCard = ({ type, menu, imgPath, tsp, volume, brix, sugar }) => {
               <span className="material-symbols-outlined" aria-hidden>
                 deployed_code
               </span>
-              <div className="font-semibold text-[15px]">น้ำตาล: {sugar} g</div>
+              <div className="font-semibold text-[15px]">
+                น้ำตาลต่อแก้ว <br /> {sugar} g
+              </div>
             </div>
           </div>
         </div>

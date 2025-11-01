@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 function App() {
   const base = import.meta.env.BASE_URL;
-  const pdfUrl = `${base}docs/how_to_use.pdf`;
+  const pdfUrl = `${base}docs/คู่มือการใช้งาน.pdf`;
 
   return (
     <div className="min-h-screen bg-background-primary flex flex-col items-center justify-center">
@@ -15,12 +15,20 @@ function App() {
         />
       </div>
 
-      <div className="mt-14 md:mt-10 flex flex-col items-center space-y-4 md:space-y-6">
+      <div className="mt-14 md:mt-10 flex flex-col items-center space-y-4 md:space-y-2">
         <Link to="/check">
           <button className="bg-background-green-tea text-text-white border-4 border-background-green-tea font-bold h-12 w-60 text-lg md:text-xl md:h-14 md:w-72 rounded-3xl cursor-pointer hover:bg-white hover:text-background-green-tea transition duration-300">
             เริ่มต้นใช้งาน
           </button>
         </Link>
+
+        <div>
+          <Link to="/summary">
+            <button className="bg-background-btn text-white border-4 border-background-btn font-bold h-12 w-60 text-lg md:text-xl md:h-14 md:w-72 rounded-3xl cursor-pointer hover:opacity-80 transition duration-300">
+              สรุปผล📊
+            </button>
+          </Link>
+        </div>
 
         <button
           className="bg-white text-text-secondary border-4 border-text-secondary font-bold h-12 w-60 text-lg md:text-xl md:h-14 md:w-72 rounded-3xl cursor-pointer hover:bg-text-secondary hover:text-white transition duration-300"

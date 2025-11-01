@@ -10,7 +10,7 @@ const CheckPage = () => {
   const [err, setErr] = useState(null);
 
   const base = import.meta.env.BASE_URL;
-  const pdfUrl = `${base}docs/how_to_use.pdf`;
+  const pdfUrl = `${base}docs/คู่มือการใช้งาน.pdf`;
 
   useEffect(() => {
     (async () => {
@@ -84,12 +84,22 @@ const CheckPage = () => {
           *WHO แนะนำให้บริโภคน้ำตาลไม่เกิน 6 ช้อนชาต่อวัน
         </div>
 
-        <button
-          className="bg-white text-text-secondary border-4 border-text-secondary font-bold h-12 w-60 text-lg md:text-xl md:h-14 md:w-72 rounded-3xl cursor-pointer hover:bg-text-secondary hover:text-white transition duration-300"
-          onClick={() => window.open(pdfUrl, "_blank", "noreferrer")}
-        >
-          คู่มือการใช้งาน 💡
-        </button>
+        <div>
+          <Link to="/summary">
+            <button className="bg-background-btn text-white border-4 border-background-btn font-bold h-12 w-60 text-lg md:text-xl md:h-14 md:w-72 rounded-3xl cursor-pointer hover:opacity-80 transition duration-300">
+              สรุปผล📊
+            </button>
+          </Link>
+        </div>
+
+        <div>
+          <button
+            className="bg-white text-text-secondary border-4 border-text-secondary font-bold h-12 w-60 text-lg md:text-xl md:h-14 md:w-72 rounded-3xl cursor-pointer hover:bg-text-secondary hover:text-white transition duration-300"
+            onClick={() => window.open(pdfUrl, "_blank", "noreferrer")}
+          >
+            คู่มือการใช้งาน 💡
+          </button>
+        </div>
 
         <div className="mt-2">
           <a
