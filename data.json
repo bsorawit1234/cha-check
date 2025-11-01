@@ -142,7 +142,7 @@
     "menu": [
       {
         "type": "thai-tea",
-        "title": "ชาไทยพ่อม ดั้งเดิม",
+        "title": "ชาไทยหอม คั่วกลาง",
         "img_path": "/images/yodcha-thai-tea.jpg",
         "tsp": 11,
         "volume": 200,
@@ -151,7 +151,7 @@
       },
       {
         "type": "green-tea",
-        "title": "กรีนทีลาเต้เย็นๆ",
+        "title": "กรีนทีลาเต้",
         "img_path": "/images/yodcha-green-tea.jpg",
         "tsp": 10.5,
         "volume": 214,
@@ -165,7 +165,7 @@
     "menu": [
       {
         "type": "thai-tea",
-        "title": "ชาไทยครามลาเต้",
+        "title": "ชาไทยคาราเมลไลซ์",
         "img_path": "/images/bearhouse-thai-tea.jpg",
         "tsp": 13.5,
         "volume": 293,
